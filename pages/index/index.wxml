@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='posts'>
+    <navigator wx:for="{{posts}}" url="/pages/show/show?id={{item.id}}">
+      <view class="post">
+        <image src="{{item.cover}}"></image>
+        <view class="title">{{item.title}}</view>
+      </view>
+    </navigator>
+
+  </view>
+</view>

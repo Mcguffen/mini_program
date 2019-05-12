@@ -1,0 +1,14 @@
+/* pages/show/show.wxss */
+.post-detail .title {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em;
+}
+.post-detail .body {
+  padding: 1em;
+}
+
+.wxparser--wxParser-p {
+  line-height: 1.5em;
+  margin: 1em 0 !important;
+}

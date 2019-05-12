@@ -1,0 +1,6 @@
+.posts .post {
+  margin: 1em 0;
+}
+.posts .post .title {
+  text-align: center;
+}
